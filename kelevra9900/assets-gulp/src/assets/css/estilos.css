@@ -1,0 +1,19 @@
+body {
+    background: black;
+    height: 100vh;
+    margin: 0;
+    font-size: 40px;
+    flex-direction: column;
+    background-size: contain;
+}
+div.big-img .small-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+    font-family: "open_sansregular";
+    text-align: center;
+}

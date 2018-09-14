@@ -1,0 +1,20 @@
+{
+  "name": "assets-gulp",
+  "version": "1.0.0",
+  "description": "_Proyecto Gulp assets process_",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "gulp-babel": "^8.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.24.7",
+    "google-fonts-webpack-plugin": "^0.4.4"
+  }
+}

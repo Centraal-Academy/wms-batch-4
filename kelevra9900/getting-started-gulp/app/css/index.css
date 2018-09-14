@@ -1,0 +1,11 @@
+/* line 1, src/index.scss */
+body {
+  background: red;
+}
+
+/* line 5, src/index.scss */
+body p {
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
