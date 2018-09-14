@@ -1,0 +1,7 @@
+# Código gitignore para evitar procesar los directorios de las dependencias
+node_modules
+jspm_packages
+
+
+#Ignore folder mac
+.DS_Store
