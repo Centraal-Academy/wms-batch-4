@@ -1,0 +1,39 @@
+{
+    "name": "npm-practicagestores",
+    "version": "0.0.0",
+    "description": "gestor npm practica",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:dev": "babel app.js --out-file app.buil.dev.js",
+        "build:production": "",
+        "serve": "./node_modules/.bin/serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/giovannibautistasantacruz/wms-batch-4.git"
+    },
+    "keywords": [
+        "Central",
+        "WebMobile",
+        "Specialist"
+    ],
+    "author": "givannibautistasantacruz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/giovannibautistasantacruz/wms-batch-4/issues"
+    },
+    "homepage": "https://github.com/giovannibautistasantacruz/wms-batch-4#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "serve": "^10.0.0"
+    },
+    "dependencies": {
+        "react": "^16.5.0",
+        "react-dom": "^16.5.0"
+    }
+
+}

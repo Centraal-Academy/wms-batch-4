@@ -1,0 +1,27 @@
+{
+    "name": "yarn-PGestorPaquetes",
+    "version": "0.0.0",
+    "description": "Manejador de paquetes yarn",
+    "main": "index.js",
+    "scripts": {
+
+        "build:dev": "babel app.js --out-file app.buil.dev.js",
+        "build:production": "",
+        "serve": "./node_modules/.bin/serve"
+    },
+    "repository": "https://github.com/giovannibautistasantacruz/wms-batch-4.git",
+    "author": "giovannibautistasantacruz",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "serve": "^10.0.1"
+    },
+    "dependencies": {
+        "react": "^16.5.0",
+        "react-dom": "^16.5.0"
+    }
+}
